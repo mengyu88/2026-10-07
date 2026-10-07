@@ -1,0 +1,21 @@
+{
+  "python": "3.10.19",
+  "packages": {
+    "torch": "2.3.0",
+    "torch-scatter": null,
+    "fastNLP": "1.0.1",
+    "fitlog": "0.9.15",
+    "nltk": "3.8.1",
+    "numpy": "1.23.5",
+    "pandas": "1.5.3",
+    "sparse": "0.14.0",
+    "tqdm": "4.65.0",
+    "transformers": "4.20.1",
+    "beautifulsoup4": "4.9.3",
+    "modelscope": "1.26.0",
+    "sparsemax": "0.1.9",
+    "setuptools": "80.10.2",
+    "openpyxl": "3.1.5"
+  },
+  "note": "Observed package metadata only; this is not a full environment lock. torch-scatter is absent; model/model.py includes a PyTorch scatter_reduce_ fallback."
+}

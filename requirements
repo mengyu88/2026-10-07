@@ -1,0 +1,14 @@
+fastNLP==1.0.1
+fitlog==0.9.15
+nltk==3.8.1
+numpy==1.23.5
+pandas==1.5.3
+sparse==0.14.0
+torch==2.3.0
+torch-scatter==2.1.2
+tqdm==4.65.0
+transformers==4.20.1
+beautifulsoup4==4.9.3
+modelscope==1.26.0
+sparsemax==0.1.9
+setuptools<81

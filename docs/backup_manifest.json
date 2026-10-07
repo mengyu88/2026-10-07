@@ -1,0 +1,294 @@
+{
+  "backup_time": "2026-10-07T15:10:44+08:00",
+  "source_root": "/root/shared-nvme/projects/SPSR-Net",
+  "scope": "SPSR model, training, decoding, evaluation, preprocessing source, historical launch scripts and configuration metadata. No datasets or weights.",
+  "files": [
+    {
+      "source": "model/__init__.py",
+      "backup": "model/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "model/cnn.py",
+      "backup": "model/cnn.py",
+      "bytes": 15837,
+      "sha256": "698cf9aee99e176a9d8c587a5ec3b6b229cd0c18a637919cd95a5d703372476e"
+    },
+    {
+      "source": "model/cnn_liabrary.py",
+      "backup": "model/cnn_liabrary.py",
+      "bytes": 5854,
+      "sha256": "d62ce748b0c2611ea27550e66be4852c935d48d317e6ea31f4e1cb3612f6ced0"
+    },
+    {
+      "source": "model/metrics.py",
+      "backup": "model/metrics.py",
+      "bytes": 5101,
+      "sha256": "ac6dc99747fdc78e6fd7a73ac4dbd64e3d048e183644951365b2b7e83eb85723"
+    },
+    {
+      "source": "model/metrics_utils.py",
+      "backup": "model/metrics_utils.py",
+      "bytes": 2241,
+      "sha256": "28184919e051ce4821908b2701a87d1381e759c2011cc97a4d444c32e5d2d504"
+    },
+    {
+      "source": "model/model.py",
+      "backup": "model/model.py",
+      "bytes": 8512,
+      "sha256": "1a6db60f9881170ab63ff37e794705e72e19bcaf1adea371ca0abb3dcb14238d"
+    },
+    {
+      "source": "model/multi_head_biaffine3.py",
+      "backup": "model/multi_head_biaffine3.py",
+      "bytes": 982,
+      "sha256": "5c6cdc9910ab0b78380e376a263e7b107c74f0805f612de37e17ada5a1b1368e"
+    },
+    {
+      "source": "model/pyramid_bfm.py",
+      "backup": "model/pyramid_bfm.py",
+      "bytes": 2557,
+      "sha256": "366d1fcdb787379edc64d37731b5ac234419aa2db6fdd1e49e6ffdd985158782"
+    },
+    {
+      "source": "callbacks/__init__.py",
+      "backup": "callbacks/__init__.py",
+      "bytes": 54,
+      "sha256": "57206cc355b0b60dc766ffe8d938a5760eca4d9928f505a06f1ff753d419bbeb"
+    },
+    {
+      "source": "callbacks/adversarial.py",
+      "backup": "callbacks/adversarial.py",
+      "bytes": 6112,
+      "sha256": "4c7d2cbc16ef631f6074428155e780ae4a57724a40334640335150ac3240029f"
+    },
+    {
+      "source": "data/ner_pipe.py",
+      "backup": "data/ner_pipe.py",
+      "bytes": 8854,
+      "sha256": "b209de9e98c70844eb810c6daf9ddbb654826f03d296b04a42f2605448540ecc"
+    },
+    {
+      "source": "data/padder.py",
+      "backup": "data/padder.py",
+      "bytes": 701,
+      "sha256": "1a32bca1f365de47b6a3507be93ef96dfd952d0f3dc1e6a6597d78e97ec001e9"
+    },
+    {
+      "source": "preprocess/proAce04.py",
+      "backup": "preprocess/proAce04.py",
+      "bytes": 28136,
+      "sha256": "ee6a7d3a83116f65ea1085ca04ec7adda52c3f72897d7af61f71c65114edf4e7"
+    },
+    {
+      "source": "preprocess/proAce05.py",
+      "backup": "preprocess/proAce05.py",
+      "bytes": 29347,
+      "sha256": "a0830527f3d307f0a004f1286f97207edc29865074c57af3d52f048b5a40cf55"
+    },
+    {
+      "source": "preprocess/proGenia.py",
+      "backup": "preprocess/proGenia.py",
+      "bytes": 22436,
+      "sha256": "e8fa131916e15b9fc53af08cc100b226bb1ba1a8e019518e6b2dfe0bfca9374f"
+    },
+    {
+      "source": "preprocess/proWeibo.py",
+      "backup": "preprocess/proWeibo.py",
+      "bytes": 3966,
+      "sha256": "95e714d885f5e3ee7b679324f83be71160f7add30c4f1e6a5e269300cd79fc57"
+    },
+    {
+      "source": "train.py",
+      "backup": "train.py",
+      "bytes": 20359,
+      "sha256": "dba6a262f170446a137c0f9076699835f23190d1ed6b468bab6627e5f696901f"
+    },
+    {
+      "source": "requirements",
+      "backup": "requirements",
+      "bytes": 225,
+      "sha256": "168fe4282874be47efcc90dc68282889f43206b621b92eb6368ef009fc9eaa1a"
+    },
+    {
+      "source": "train_arg_04.sh",
+      "backup": "train_arg_04.sh",
+      "bytes": 136,
+      "sha256": "e0f7187cf3e28d2162b19383da69abbdcc2fdcbb795cbcb42481f3dd162ea01a"
+    },
+    {
+      "source": "train_arg_05.sh",
+      "backup": "train_arg_05.sh",
+      "bytes": 135,
+      "sha256": "c0e9a97af69460ee69159c713d52f40f13dd956943d81481f46c4a14119af705"
+    },
+    {
+      "source": "train_arg_genia.sh",
+      "backup": "train_arg_genia.sh",
+      "bytes": 143,
+      "sha256": "d58766a4eabd1ca3fb98a9c667079c33051d6388a4d329cb1d0e98fba7dce058"
+    },
+    {
+      "source": "runs/auto_continue_w_o_pgd_after_hsr.sh",
+      "backup": "scripts/train/historical/auto_continue_w_o_pgd_after_hsr.sh",
+      "bytes": 3236,
+      "sha256": "4e1f6b3167708980ed4d111c685c8a92433e55d56bbc66ee11c07dc6b8c3b185"
+    },
+    {
+      "source": "runs/continue_food_w_o_hsr_to_ceiling.sh",
+      "backup": "scripts/train/historical/continue_food_w_o_hsr_to_ceiling.sh",
+      "bytes": 3917,
+      "sha256": "90853c0913b468fbe58257b54facb073d3052c423df9c8e3d2f3e83b86180e5b"
+    },
+    {
+      "source": "runs/run_food_genia_ablation.sh",
+      "backup": "scripts/train/historical/run_food_genia_ablation.sh",
+      "bytes": 2718,
+      "sha256": "e1bb66f9810682217bc69747fafced096ae3eb298c9f474e017e17fb73b6799a"
+    },
+    {
+      "source": "runs/run_food_genia_ablation_remaining_e10.sh",
+      "backup": "scripts/train/historical/run_food_genia_ablation_remaining_e10.sh",
+      "bytes": 2371,
+      "sha256": "337f0e22480b0212b0106bc15352d3b78239d4a05f39fa8bce94d9ed62298f41"
+    },
+    {
+      "source": "runs/run_food_legacy_full_wo_snsa_hsr_20260925.sh",
+      "backup": "scripts/train/historical/run_food_legacy_full_wo_snsa_hsr_20260925.sh",
+      "bytes": 1527,
+      "sha256": "8eeabbaeacd4bb39443e10b1da20c5b351397982bb40fbf23276d4442014ac06"
+    },
+    {
+      "source": "runs/run_food_legacy_wo_pgd_20260926.sh",
+      "backup": "scripts/train/historical/run_food_legacy_wo_pgd_20260926.sh",
+      "bytes": 1122,
+      "sha256": "ef7f33f9237c376972b36b91f9cdd1d4354c002f47867a5357bf9b80e100dff0"
+    },
+    {
+      "source": "runs/run_food_per_class_suite.sh",
+      "backup": "scripts/train/historical/run_food_per_class_suite.sh",
+      "bytes": 1581,
+      "sha256": "bff3ad41b72ad6be54536ed5c088cdff05f4a4ab59901583ca9485482b7cf7c3"
+    },
+    {
+      "source": "runs/run_food_small60_labauditv1_spsr_standard_ablation_e10.sh",
+      "backup": "scripts/train/historical/run_food_small60_labauditv1_spsr_standard_ablation_e10.sh",
+      "bytes": 2130,
+      "sha256": "eb48c8171da6f78813a3b90443c2003dbb4824cf81d4a2e8a55fc01745b83a36"
+    },
+    {
+      "source": "runs/run_food_spsr_bce_ablation_one.sh",
+      "backup": "scripts/train/historical/run_food_spsr_bce_ablation_one.sh",
+      "bytes": 4902,
+      "sha256": "c79110ce9e2c852f6ba8d41380df9f67ac12a62b33cc66695650400b93707e44"
+    },
+    {
+      "source": "runs/run_genia_spsr_direct_asl_perclass_20260921.sh",
+      "backup": "scripts/train/historical/run_genia_spsr_direct_asl_perclass_20260921.sh",
+      "bytes": 1799,
+      "sha256": "c68241c3a556f8cf9e542dab5f3b7e27d34b64863e3cbf3233841f21cb819253"
+    },
+    {
+      "source": "scripts/download_backbones.py",
+      "backup": "scripts/download_backbones.py",
+      "bytes": 6448,
+      "sha256": "27ce826dc461b76ac49a96f22c9ad19707b81dbf4cf1b75196a7b0ccf860c9f7"
+    },
+    {
+      "source": "scripts/eval_thresholds.py",
+      "backup": "scripts/eval_thresholds.py",
+      "bytes": 10549,
+      "sha256": "a57ef7b8d8c048888d3265f7ae5308355d17633225cd110cb6f638078429013d"
+    },
+    {
+      "source": "scripts/eval_per_class.py",
+      "backup": "scripts/eval_per_class.py",
+      "bytes": 6269,
+      "sha256": "6d3e58497f2e01b7d203a66f502b98af26798e2aefb39efe8f5046830536f7b5"
+    },
+    {
+      "source": "scripts/eval_ensemble.py",
+      "backup": "scripts/eval_ensemble.py",
+      "bytes": 9314,
+      "sha256": "8f7b5fed7e554e449399444035754776a0d6be28ea610551fc4ba9e5e3bc0101"
+    },
+    {
+      "source": "scripts/export_genia_full_sentence_predictions.py",
+      "backup": "scripts/export_genia_full_sentence_predictions.py",
+      "bytes": 11497,
+      "sha256": "c9006194f9f2e1e36537d29cc8a24956e878ea13513abebff40e4dc36fbe252c"
+    },
+    {
+      "source": "scripts/collect_ablation_epoch_artifacts.py",
+      "backup": "scripts/collect_ablation_epoch_artifacts.py",
+      "bytes": 21312,
+      "sha256": "56d38e579163617725de7de202d28cbe6c6650dd19fb427e5c189e12893205ad"
+    },
+    {
+      "source": "scripts/export_ablation_per_class_xlsx.py",
+      "backup": "scripts/export_ablation_per_class_xlsx.py",
+      "bytes": 6629,
+      "sha256": "4e33b6a3d2e48ea656da68dee5145602eaa63bdbcffb46943f0d0e49602c8baf"
+    },
+    {
+      "source": "README.md",
+      "backup": "docs/original/README.md",
+      "bytes": 4715,
+      "sha256": "70eae340d90720dda05956c497bf07eb7bfb27251e296fc5281f1f637025757b"
+    },
+    {
+      "source": "images/model.png",
+      "backup": "docs/original/images/model.png",
+      "bytes": 391532,
+      "sha256": "9040e0003d6f1d8634f792c88784307d35c396eb3a152ec107dbaaae6a27ec97"
+    },
+    {
+      "source": "weights/github_genia_full_asl_20260501/source.json",
+      "backup": "configs/historical_genia_checkpoint.json",
+      "bytes": 1066,
+      "sha256": "e29db23fb7dea58febe0798717cae069f3d70c735de355243cfd5c83838992f4"
+    }
+  ],
+  "original_files_count": 41,
+  "original_files_bytes": 656322,
+  "generated_files": [
+    "README.md",
+    ".gitignore",
+    "requirements-tools.txt",
+    "scripts/train_from_config.py",
+    "configs/genia_asl.json",
+    "configs/food_bce.json",
+    "docs/server_environment.json",
+    "docs/backup_manifest.json"
+  ],
+  "excluded": [
+    "data/genia/",
+    "preprocess/outputs/",
+    "preprocess/splits/",
+    "pretrained_models/",
+    "weights/ (except source.json configuration metadata)",
+    "outputs/",
+    "logs/",
+    "caches/",
+    "analysis/",
+    "runs/ generated files",
+    "__pycache__/",
+    "other model projects",
+    "/root/spsr-runs/"
+  ],
+  "notes": [
+    "Copied files retain exact bytes from the source, including historical server paths. Their SHA-256 values allow verification.",
+    "Historical launch scripts are archival; the portable runner and JSON profiles are supplied for restored installations.",
+    "docs/original/images/model.png is the inherited DiFiNet diagram, not an updated SPSR architecture figure."
+  ],
+  "validation": {
+    "original_file_hashes": "All 41 copied files match source SHA-256, including Git index contents.",
+    "python_syntax": "All 25 Python files parse using Python 3.10 grammar.",
+    "shell_syntax": "All 13 Shell files pass bash -n.",
+    "training_entry": "train.py --help succeeds with the server Python 3.10 environment and offline flags. No training performed.",
+    "profiles": "Both generated dry-run commands are accepted by the original training parser. Component and ceiling overrides work.",
+    "artifact_scope": "49 whitelisted files. No dataset, checkpoint or generated run output in the Git index.",
+    "formatting": "New files pass git diff --check. Original copied whitespace and mixed line endings are retained exactly."
+  }
+}

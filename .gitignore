@@ -1,0 +1,40 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.env.*
+.DS_Store
+
+# Keep data-processing source; exclude all dataset payloads.
+/data/*
+!/data/*.py
+/preprocess/*
+!/preprocess/*.py
+
+# Downloaded backbones, training state and generated artifacts
+/pretrained_models/
+/weights/
+/outputs/
+/logs/
+/fitlog/
+/caches/
+/_saved_models/
+/analysis/
+/runs/
+*.ckpt
+*.pt
+*.pth
+*.pkl
+*.pkl.tar
+*.bin
+*.safetensors
+*.log
+*.pid
+*.csv
+*.xlsx
+*.docx
+
+# JSON configuration and the backup manifest are deliberately tracked.

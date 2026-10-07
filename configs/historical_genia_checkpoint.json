@@ -1,0 +1,30 @@
+{
+  "repository": "mengyu88/ner-2026-05",
+  "branch": "backup-genia-20260503-153352",
+  "repository_path": "_saved_models/2026-05-01-01_03_54_110817/model-epoch_1-batch_3756-f#f#test_81.81/fastnlp_model.pkl.tar",
+  "git_blob_sha": "e611f00f22490d10ba2acc2d5d4db6b7a82f4304",
+  "expected_lfs_sha256": "816ed03f9a6e3a7ff05245e5072fc8f49200df28e52ae0a67c6cac6542057516",
+  "expected_bytes": 500970418,
+  "configuration_source": "logs/log_20260501_010400/hyper.log",
+  "configuration": {
+    "dataset_name": "genia",
+    "head_type": "linear",
+    "loss_type": "asl",
+    "asl_gamma_pos": 0.0,
+    "asl_gamma_neg": 1.0,
+    "asl_clip": 0.0,
+    "adv_type": "pgd",
+    "cnn_dim": 400,
+    "cnn_depth": 1,
+    "n_layer": 2,
+    "biaffine_size": 200,
+    "size_embed_dim": 25,
+    "n_head": 4,
+    "sad_topk": 2,
+    "sad_use_rel_bias": true,
+    "sad_gate": true,
+    "ent_thres": 0.48,
+    "checkpoint_monitor": "f#f#test"
+  },
+  "note": "完整模型保留 SNSA 与 HSR。文件名中的 81.81 为历史记录，不代表此次重新计算的完整测试集指标。"
+}
